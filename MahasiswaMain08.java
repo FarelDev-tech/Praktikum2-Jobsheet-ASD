@@ -15,5 +15,10 @@ public class MahasiswaMain08 {
         Mahasiswa08 mhs2 = new Mahasiswa08("Kirigaya Kazuto", "254107060078", 3.50, "SIB-1A");
         mhs2.updateIpk(4.00);
         mhs2.tampilkanInformasi();
+
+        // Membuat objek yang ketiga menggunakan konstruktor parameter untuk menjawab soal no.5 percobaan 3
+        Mahasiswa08 mhs = new Mahasiswa08("Asuna Yuuki", "254107060079", 3.45, "SIB-1A");
+        mhs.tampilkanInformasi();
+        System.out.println(mhs.nilaiKinerja());
     }
 }
