@@ -10,5 +10,10 @@ public class MahasiswaMain08 {
         mhs1.ubahKelas("SIB-1B");
         mhs1.updateIpk(4.00); //Aaminn
         mhs1.tampilkanInformasi();
+
+        // Membuat objek yang kedua menggunakan konstruktor parameter
+        Mahasiswa08 mhs2 = new Mahasiswa08("Kirigaya Kazuto", "254107060078", 3.50, "SIB-1A");
+        mhs2.updateIpk(4.00);
+        mhs2.tampilkanInformasi();
     }
 }
